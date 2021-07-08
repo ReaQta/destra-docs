@@ -193,7 +193,7 @@ Custom Event No Process | 61 | [Custom Event No Process](#data-custom-event)
 Macro Enabled Document | 62 | [Macro Enabled Document](#data-macro-enabled-document)
 In Memory Executable | 63 | [In Memory Executable](#data-in-memory-executable)
 Process Killed | 64 | [Process Killed](#data-process-killed)
-Mitre ATTA&CK | 65 | [Mitre ATTA&CK](#data-mitre-attack)
+Mitre ATT&CK | 65 | [Mitre ATT&CK](#data-mitre-attack)
 WMI Event Filter | 66 | [WMI Event Filter](#data-wmi-event-filter)
 WMI Event Consumer | 67 | [WMI Event Consumer](#data-wmi-event-consumer)
 WMI Filer to Consumer | 68 | [WMI Filter to Consumer](#data-wmi-filter-to-consumer)
@@ -211,7 +211,7 @@ Service Deleted | 86 | [Service Deleted](#data-windows-service-operation)
 Service Started | 87 | [Service Started](#data-windows-service-operation)
 Service Stopped | 88 | [Service Stopped](#data-windows-service-operation)
 AMSI Anti-malware Scan Interface | 89 | [AMSI](#data-amsi)
-Mitre ATTA&CK No Process | 90 | [Mitre ATTA&CK No Process](#data-mitre-attack)
+Mitre ATT&CK No Process | 90 | [Mitre ATT&CK No Process](#data-mitre-attack)
 
 ### Data Empty
 
@@ -1006,7 +1006,7 @@ is_custom_event | Custom Event No Process | 61
 is_macro_enabled | Macro Enabled Document | 62
 is_inmem_exec | In Memory Executable | 63
 is_process_killed | Process Killed | 64
-is_technique_detected | Mitre ATTA&CK | 65
+is_technique_detected | Mitre ATT&CK | 65
 is_wmi_filter | WMI Event Filter | 66
 is_wmi_consumer | WMI Event Consumer | 67
 is_wmi_filtertoconsumer | WMI Filer to Consumer | 68
@@ -1025,7 +1025,7 @@ is_service_deleted | Service Deleted | 86
 is_service_started | Service Started | 87
 is_service_stopped | Service Stopped | 88
 is_amsi | AMSI Anti-malware Scan Interface | 89
-is_technique_detected_no_process | Mitre ATTA&CK No Process | 90
+is_technique_detected_no_process | Mitre ATT&CK No Process | 90
 
 Example:
 
@@ -1115,7 +1115,7 @@ local res = create_event(event, version, type, name, description, relevance, tag
 
 ### Mitre Event
 
-*Lua function* used to create a [Mitre ATTA&CK event](#data-mitre-attack) from a bound event.
+*Lua function* used to create a [Mitre ATT&CK event](#data-mitre-attack) from a bound event.
 Note that not all event fields will be searchable with the threat hunt functionalities.
 The fields will be present in the data object, but not all can be searched from the User
 Interface.
