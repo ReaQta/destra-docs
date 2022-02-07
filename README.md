@@ -989,7 +989,7 @@ is_privesc | Privilege Escalation | 17
 is_file_persistence | File System Persistence | 18
 is_proc_impersonation | Process Impersontation | 20
 is_signature_forged | Forged Digital Signature | 22
-is_cred_harvested | Harvested Credentials | 23
+is_cred_harvested | Harvested Credentials | 24
 is_susp_script | Suspicious Script | 27
 is_anomalous_behaviour | Behavioural Anomaly | 31
 is_rat | RAT Behaviour | 35
